@@ -10,25 +10,26 @@ section {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    height: 300px
+    height: 500px
 }
 
 p {
     font-family: 'Orbitron', sans-serif;
     background-color: #00adb5;
     color: cornsilk;
-    font-size: 50px;
-    width: 300px;
-    margin: auto;
-    margin-top: 5vh;
+    font-size: 80px;
+    width: 500px;
+    /* margin: auto; */
+    margin-top: 200px;
     border-radius: 5px;
 }
 
 .alert {
-    margin-top: 2vh;
+    margin-top: 0;
     color: orangered;
     background-color: #393e46;
     opacity: 0;
+    margin-bottom: 3vh;
 
 }
 
@@ -36,7 +37,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     background-color: #00adb5;
     color: cornsilk;
-    margin-top: 1vh;
+    margin-top: 0;
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 17px;
