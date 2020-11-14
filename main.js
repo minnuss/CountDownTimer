@@ -7,7 +7,7 @@ do {
 let n = question;
 let seconds = n * 60;
 
-setInterval(timer, 1000);
+let x = setInterval(timer, 1000);
 
 function timer() {
 
@@ -24,6 +24,11 @@ function timer() {
         function refreshPage() {
             window.location.reload();
         }
+
+        function stop() {
+            clearInterval(x);
+        }
+        stop();
     }
 
     let min = Math.floor(seconds / 60);
